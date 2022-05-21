@@ -1,0 +1,15 @@
+jwt:
+  secret: 16e060e2267b0a3754a7415939d32088
+  expiresAt: 60
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/javadb?useSSL=false
+    username: edu
+    password:
+    
+  jpa:
+    hibernate.ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
